@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles\contact.css" />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <div class="menu-toggle">
+        <div class="hamburger"></div>
+      </div>
+      <div class="logo">
+        <a href="index.html"
+          ><img
+            class="logo-img"
+            src="images\output-onlinepngtools 2.png"
+            alt=""
+        /></a>
+      </div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="About.html">About</a></li>
+          <li><a href="Certificate.html">Certificate</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="mobile-menu">
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="Certificate.html">Certificate</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- Contact Section -->
+    <main>
+      <section class="contact">
+        <h1>Let’s Talk For your</h1>
+        <h2>Next Projects</h2>
+        <p class="contact-description"></p>
+        <form action="#" method="post">
+          <div class="form-row">
+            <!-- Full Name Input -->
+            <div class="form-group">
+              <label for="full-name">Full Name</label>
+              <input
+                type="text"
+                id="full-name"
+                name="full-name"
+                placeholder="Nuel Mezmeir"
+                required
+              />
+            </div>
+            <!-- Email Address Input -->
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="name@gmail.com"
+                required
+              />
+            </div>
+          </div>
+          <!-- Subject Input -->
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input
+              type="text"
+              id="subject"
+              name="subject"
+              placeholder="Subject"
+              required
+            />
+          </div>
+          <!-- Message Textarea -->
+          <div class="form-group message-group">
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Write your message..."
+              required
+            ></textarea>
+          </div>
+          <!-- Submit Button -->
+          <div class="submit-btn-container">
+            <button type="submit" class="submit-btn">Send Message</button>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <!-- Footer Section -->
+
+    <script src="scripts\contact.js"></script>
+  </body>
+</html>
